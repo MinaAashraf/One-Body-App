@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e1a26"
+    android:orientation="vertical"
+    tools:context="com.questionsanawya.dell.sanawyaapp.Mosapaa2Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:elevation="25dp"
+            android:id="@+id/toolbar6"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="مسابقات كتابية"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@drawable/b"
+        android:layout_gravity="center"
+        android:id="@+id/question_txt"
+        android:layout_marginTop="40dp"
+        android:textColor="#ff0"
+        android:gravity="center"
+      android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="ما هو الدليل علي عدم تحريف الكتاب المقدس و متي تم ترجمة الكتاب المقدس وما هي اول لغة ترجم اليها الكتاي الكقدس؟"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/answer1_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/answer2_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/answer3_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:id="@+id/answer4_btn"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

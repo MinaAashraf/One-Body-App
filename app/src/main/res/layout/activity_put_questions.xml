@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.questionsanawya.dell.sanawyaapp.PutQuestions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="مسابقات كتابية"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="match_parent"
+                android:background="@drawable/view1"
+                android:layout_marginRight="20dp"
+                android:textColor="#fff"
+                android:id="@+id/another"
+                android:text="السوال الاخر"
+                android:textStyle="bold"
+                android:layout_height="match_parent" />
+            <TextView
+                android:id="@+id/question_num"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/b"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent"
+                android:text="السوال السابق"
+                android:id="@+id/before"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:background="@drawable/view1"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/putquestion_edtxt"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/b"
+            android:gravity="center"
+            android:hint="السوال"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:textColor="#ff0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/putanswer1_edt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#d6d7d7"
+            android:hint="   الاختيار الاول والصحيح"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/putanswer2_edt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#d6d7d7"
+            android:hint="   الاختيار الثاني"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/putanswer3_edt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#d6d7d7"
+            android:hint="   الاختيار الثالث"
+
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/putanswer4_edt"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#d6d7d7"
+            android:hint="   الاختيار الرابع" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/save_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:text="Save"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/button"
+                android:text="Cancel"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

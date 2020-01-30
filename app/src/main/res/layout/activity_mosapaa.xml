@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#0e1a26"
+    android:id="@+id/mospaa_layout"
+    android:layout_height="match_parent"
+    tools:context="com.questionsanawya.dell.sanawyaapp.MosapaaActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="مسابقات كتابية"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+   <ImageView
+       android:layout_width="wrap_content"
+       android:src="@drawable/medal2"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="80dp"
+       android:layout_height="wrap_content"
+       android:id="@+id/medal"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:id="@+id/start_btn"
+        android:layout_height="70dp"
+        android:background="@drawable/button"
+        android:layout_below="@id/medal"
+        android:text="START"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="20sp"
+        android:textSize="40sp"
+
+        android:textColor="#fff"
+        />
+<ImageView
+    android:layout_width="50dp"
+    android:src="@drawable/edit"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+      android:layout_marginBottom="20sp"
+    android:layout_marginRight="20sp"
+    android:id="@+id/put_questions"
+    android:visibility="visible"
+    android:layout_height="50dp" />
+
+</RelativeLayout>

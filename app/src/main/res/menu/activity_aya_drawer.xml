@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/mygroup_nav"
+            android:icon="@drawable/my_group_image"
+            android:title="مـجــــمــوعــتــي" />
+
+        <item
+            android:id="@+id/magmo3at_nav"
+            android:icon="@drawable/magmo3at_image"
+            android:title="المـجــــمـوعــــات" />
+
+        <item
+            android:id="@+id/cominggroup_nav"
+            android:icon="@drawable/group"
+            android:title="المجموعة القادمة" />
+        <item
+            android:id="@+id/score_nav"
+            android:icon="@drawable/score_image"
+            android:title="الــنــــــــقــــــــاط" />
+
+        <item
+            android:id="@+id/questions_nav"
+            android:icon="@drawable/questionmark"
+            android:title="اسـأل خــادمــــك" />
+
+
+    </group>
+
+    <item android:title="الجـزء الـروحـي">
+        <menu>
+            <item
+                android:id="@+id/tranim_nav"
+                android:icon="@drawable/tranim_image"
+                android:title="تــــــرانـــيــــــــــم" />
+            <item
+                android:id="@+id/aya_nav"
+                android:icon="@drawable/aya_image"
+                android:title="صـــوت يــســـــوع" />
+        </menu>
+    </item>
+
+
+    <item android:title="الادوات">
+        <menu>
+
+            <item
+                android:id="@+id/setting_nav"
+                android:icon="@drawable/settings_image"
+                android:title="الاِعــــــــــــــــدادات" />
+
+
+            <item
+                android:id="@+id/logout_nav"
+                android:icon="@drawable/logout"
+                android:title="تســـجـيل الـخـروج" />
+        </menu>
+    </item>
+
+</menu>

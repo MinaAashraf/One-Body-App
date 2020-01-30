@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrol_edit"
+    android:background="@drawable/new_gradient"
+    android:orientation="vertical"
+    tools:context="com.questionsanawya.dell.sanawyaapp.EditAActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Edit Data"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/groupname_edittxt"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/b"
+                android:gravity="right"
+                android:hint="اسم المجموعة:"
+                android:inputType="textMultiLine"
+                android:maxLines="2"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/maudo3edittxt"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/b"
+                android:gravity="right"
+                android:hint="اسم الموضوع:"
+                android:inputType="textMultiLine"
+                android:maxLines="2"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textColorHint="#000"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/R1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:background="#101d28">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="1."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:hint="الفقرة الاولي"
+                    android:textColorHint="#c4b8b8"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/R2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="2."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed2"
+                    android:hint="الفقرة الثانية"
+                    android:textColorHint="#c4b8b8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/R3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="3."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:hint="الفقرة الثالثة"
+                    android:textColorHint="#c4b8b8"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/R4"
+                android:layout_width="0dp"
+android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:background="#121f2a"
+                android:enabled="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="4."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="الفقرة الرابعة"
+                    android:textColorHint="#c4b8b8"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/R5"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="5."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="الفقرة الخامسة"
+                    android:textColorHint="#c4b8b8"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/R6"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="6."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed6"
+                    android:layout_width="match_parent"
+                    android:hint="الفقرة السادسة"
+                    android:textColorHint="#c4b8b8"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/R7"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="7."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="الفقرة السابعة"
+                    android:textColorHint="#c4b8b8"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/R8"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="8."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="الفقرة الثامنة"
+                    android:textColorHint="#c4b8b8"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/R9"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="9."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="الفقرة التاسعة"
+                    android:textColorHint="#c4b8b8"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/R10"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="10."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="الفقرة العاشرة"
+                    android:textColorHint="#c4b8b8"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/R11"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="11."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="الفقرة الحادية عشر"
+                    android:textColorHint="#c4b8b8"                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/R12"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="160dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="#121f2a">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:text="12."
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/ed12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="الفقرة الثانية عشر"
+                    android:textColorHint="#c4b8b8"
+
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:maxLines="6"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/edit_btn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/b"
+                android:text="Edit"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/cancel_btn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/b"
+                android:text="Cancel"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

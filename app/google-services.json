@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "149206520816",
+    "firebase_url": "https://sanawyaapp.firebaseio.com",
+    "project_id": "sanawyaapp",
+    "storage_bucket": "sanawyaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149206520816:android:9b1ff40527c39a64",
+        "android_client_info": {
+          "package_name": "com.questionsanawya.dell.sanawyaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149206520816-ci0tqineg4haghl3etlhk6siai2ufnlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.questionsanawya.dell.sanawyaapp",
+            "certificate_hash": "2f4bb3c9b81ee2c2b60f707255b7732df3db5a6d"
+          }
+        },
+        {
+          "client_id": "149206520816-o1j1uvdcas1h5c8937jt8fjt13f7jsd9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjUa7jOsykz9HPKQzcyDVzBrgS20gs4Ag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149206520816-o1j1uvdcas1h5c8937jt8fjt13f7jsd9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

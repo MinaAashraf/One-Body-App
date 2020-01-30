@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#101c28"
+    android:id="@+id/messages_layout"
+    tools:context="com.questionsanawya.dell.sanawyaapp.MessagesActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Messages"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+    <ListView
+        android:id="@+id/listq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>
+

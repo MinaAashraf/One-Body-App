@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.questionsanawya.dell.sanawyaapp.QuestionActivity"
+    tools:showIn="@layout/app_bar_question">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:background="#a7a2a2"
+        android:inputType="textMultiLine"
+        android:hint="اكتب رسالتك:"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"
+        android:id="@+id/question_layout"
+        android:gravity="top"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/b"
+                android:text="اِرسال"
+                android:textColor="#000"
+                android:id="@+id/send_btn"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="15dp"
+                android:background="@drawable/b"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"></Spinner>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
