@@ -13,7 +13,7 @@
 ## Screen Shots
 <img src="https://user-images.githubusercontent.com/48159614/206852563-d4a8d45b-c365-4403-a499-5f59db68e2d1.jpg" width="444" height="296">
 
-<img src="https://user-images.githubusercontent.com/48159614/206852564-563f5b20-7eb4-4e30-b72b-df5d49e243eb.jpg" width="148" height="296">
+<img src="https://user-images.githubusercontent.com/48159614/206852564-563f5b20-7eb4-4e30-b72b-df5d49e243eb.jpg" width="400" height="800">
 
 <img src="https://user-images.githubusercontent.com/48159614/206852565-4e22d885-ef75-4802-a80b-716f326c9431.jpg" width="400" height="800">
 
